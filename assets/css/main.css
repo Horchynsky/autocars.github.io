@@ -176,6 +176,10 @@ a:after {
 .row1 img{
     width: 150px;
 }
+.input{
+    width: 200px;
+    margin-top: 50px;
+}
 /* White Wrap */
 
 #w {
