@@ -73,9 +73,10 @@ a:after {
 	background: url(../img/header-bg1.jpg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
+	text-align:center;
 	background-attachment: relative;
-	background-position: center;
-	min-height: 500px;
+	background-position: center center;
+	min-height: 700px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -95,7 +96,7 @@ a:after {
 	text-align:left;
 	background-attachment: relative;
 	background-position:center;
-	min-height: 300px;
+	min-height: 100px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -112,27 +113,15 @@ a:after {
 #headerwrap h1 {
 	margin-top: 130px;
 	color: white;
-	font-size: 65px;
+	font-size: 70px;
 	font-weight: 700;
 	letter-spacing: 3px;
+    float: left;
 }
 #headerwrap1 h1 {
 	color: white;
 	font-size: 50px;
 	letter-spacing: 3px;
-}
-
-#headerwrap h2 {
-	color: white;
-	font-size: 50px;
-	font-weight: 100;
-	letter-spacing: 2px;
-}
-#headerwrap1 h2 {
-	color: white;
-	font-size: 50px;
-	font-weight: 100;
-	letter-spacing: 2px;
 }
 
 /* Portfolio Wrap */
@@ -161,24 +150,22 @@ a:after {
 #portfoliowrap h3 {
 	color: #ffffff;
 }
+.row{
+    font-style: italic;
+    font-size: 15px;
+}
 
 .port-space {
 	padding-bottom: 20px;
     color: #f2f2f2;
-}
-.row1{
-    width: 100%;
-    margin: 0;
+
 }
 .row1 p{
     color: black;
+    font-size: 25px;
 }
 .row1 img{
     width: 150px;
-}
-.input{
-    width: 200px;
-    margin-top: 50px;
 }
 /* White Wrap */
 
