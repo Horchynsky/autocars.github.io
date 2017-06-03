@@ -43,14 +43,26 @@
 			<a href="index.html#portfolio" class="smoothScroll">Спеціалізація</a>
 			<a href="index.html#about" class="smoothScroll">Про нас</a>
 			<a href="#contact" class="smoothScroll">Контакти</a>
-			<a href="#"><i class="icon-facebook"></i></a>
-			<a href="#"><i class="icon-twitter"></i></a>
-			<a href="#"><i class="icon-vk"></i></a>
-			<a href="#"><i class="icon-envelope"></i></a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-vk"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+            
+            <form class="navbar-form " action="">
+                <div class="form-group">
+                    <input type="text" placeholder="E-mail" value="" class="form-control">
+                    <input type="passowrd" placeholder="Пароль" value="" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-sign-in"><b>    Вхід</b></i>
+                </button>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fabula"><a href="index2.html">Реєстрація</a></i>
+                </button>
+            </form>
 		</div>
 		
 		<!-- Menu button -->
-		<div id="menuToggle"><i class="icon-reorder"></i></div>
+		<div id="menuToggle"><i class="fa fa-align-justify"></i></div>
 	</nav>
 
 
@@ -78,33 +90,102 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-				<h3><bold>Де ми знаходимось?</bold>
-				</h3>
+				<h3><bold>Створити обліковий запис</bold></h3>
+                <p>Якщо ви вже маєте обліковий запис, будь ласка, <a href="#">авторизуйтесь</a></p>
 				</div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /w -->
 	
 	<!-- ========== ABOUT - GREY SECTION ========== -->
-	<section id="about" name="about"></section>
-	<div id="g">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82352.671015165!2d23.94219555815365!3d49.8326679491113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1490027848315" width="100%" height="450" frameborder="10" style="border:5" allowfullscreen></iframe>
-				</div>
-                <div class="col-lg-4">
-                    <h3><b>Наше місце розташування: 
-                        м.Львів
-                        <br>
-                        Вулиця Богдана Хмельницького ***</b></h3>
-
-                    <img src="assets/img/logo_lviv.png">
-                </div>
-			</div>
-		</div><!-- /container -->
-	</div><!-- /g -->
-	
+<div id="content" class="container col-lg-12">
+  <form action="#" method="post" enctype="multipart/form-data">
+    <h2>Ваші особисті дані</h2>
+        <div class="content">
+            <table class="form">
+                <tbody>
+                    <tr>
+                        <td><span class="required">*</span> Ім’я:</td>
+                        <td><input type="text" name="firstname" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><span class="required">*</span> Прізвище:</td>
+                        <td><input type="text" name="lastname" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><span class="required">*</span> E-mail:</td>
+                        <td><input type="text" name="email" value=""></td>
+                    </tr>
+                </tbody>
+            </table>
+      </div>
+      <div class="content">
+          <td><span class="required">*</span> Країна:</td>
+          <td><select class="country btn btn-primary" name="country_id">
+                <option class="country" value="">--- Оберіть ---</option>
+                <option  class="country" value="220">Україна</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <br>
+          <td><span class="required">*</span> Регіон / Область:</td>
+          <td><select class="country btn btn-primary" name="zone_id" >
+              <option value="">--- Оберіть ---</option>
+              <option value="3486">Івано-Франківськ</option>
+              <option value="3483">АРК</option>
+              <option value="3502">Волинь</option>
+              <option value="3501">Вінниця</option>
+              <option value="3484">Дніпропетровськ</option>
+              <option value="3485">Донецьк</option>
+              <option value="3505">Житомир</option>
+              <option value="3503">Закарпаття</option
+              <option value="3504">Запоріжжня</option
+              <option value="3490">Київ</option>
+              <option value="3491">Київська область</option>
+              <option value="3489">Кіровоград</option>
+              <option value="3492">Луганськ</option>
+              <option value="3493">Львів</option>
+              <option value="3494">Миколаїв</option>
+              <option value="3495">Одеса</option>
+              <option value="3496">Полтава</option>
+              <option value="3497">Рівне</option>
+              <option value="3498">Севастополь</option>
+              <option value="3499">Суми</option>
+              <option value="3500">Тернопіль</option>
+              <option value="3487">Харків, Херсон</option>
+              <option value="3488">Хмельницький</option>
+              <option value="3480">Черкаси</option>
+              <option value="3482">Чернівці</option>
+              <option value="3481">Чернігів</option></select>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+ 
+    <h2>Ваш пароль</h2>
+    <div class="content">
+      <table class="form">
+        <tbody><tr>
+          <td><span class="required">*</span> Пароль:</td>
+          <td><input type="password" name="password" value="">
+            </td>
+        </tr>
+        <tr>
+          <td><span class="required">*</span> Підтвердження паролю:</td>
+          <td><input type="password" name="confirm" value="">
+            </td>
+        </tr>
+      </tbody></table>
+    </div>
+    </div>
+        <div class="buttons">
+      <div class="right">
+                <input type="submit" value="Продовжити" class="btn btn-primary">
+      </div>
+    </div>
+      </form>
+</div>   <!--CONTENT--> 
 	<!-- ========== FOOTER SECTION ========== -->
 	<section id="contact" name="contact"></section>
 	<div id="f">
@@ -127,9 +208,9 @@
 					<div class="col-lg-4">
 						<h3><b>Ми В Соц. Мережах</b></h3>
 						<p>
-							<a href="index.html#"><i class="icon-facebook"></i></a>
-							<a href="index.html#"><i class="icon-twitter"></i></a>
-							<a href="index.html#"><i class="icon-envelope"></i></a>
+							<a href="index.html#"><i class="fa fa-facebook"></i></a>
+							<a href="index.html#"><i class="fa fa-vk"></i></a>
+							<a href="index.html#"><i class="fa fa-envelope"></i></a>
 						</p>
 						<br>
 					</div>

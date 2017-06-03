@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
-
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
@@ -151,7 +150,8 @@ a:after {
 	color: #ffffff;
 }
 .row{
-    font-style: italic;
+    font-family: 'Inconsolata', monospace;
+
     font-size: 15px;
 }
 
@@ -195,13 +195,12 @@ a:after {
 	padding-bottom: 35px;
 	text-align: center;
 }
-iframe{
-    border-style: dashed;
-    border-color: dimgray;
-    float: left;
+select{
+    width: 100%;
 }
-
-
+.country{
+    width: 20%;
+}
 /* Footer Wrap */
 
 #f {

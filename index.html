@@ -40,16 +40,28 @@
 			<h1 class="logo"><a href="index.html#home">Головна</a></h1>
 			<i class="icon-remove menu-close"></i>
             <a href="index.html#home" class="smoothScroll">Головна</a>
-			<a href="#portfolio" class="smoothScroll">Спеціалізація</a>
-			<a href="#about" class="smoothScroll">Про нас</a>
+			<a href="#portfolio" class="smoothScroll">Про нас</a>
+			<a href="#about" class="smoothScroll">Пошук запчастини</a>
 			<a href="#contact" class="smoothScroll">Контакти</a>
-			<a href="#"><i class="icon-facebook"></i></a>
-			<a href="#"><i class="icon-vk"></i></a>
-			<a href="#"><i class="icon-envelope"></i></a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-vk"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+            <form class="navbar-form " action="">
+                <div class="form-group">
+                    <input type="text" placeholder="E-mail" value="" class="form-control">
+                    <input type="passowrd" placeholder="Пароль" value="" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-sign-in"><b>    Вхід</b></i>
+                </button>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fabula"><a href="index2.html">Реєстрація</a></i>
+                </button>
+            </form>
 		</div>
 		
 		<!-- Menu button -->
-		<div id="menuToggle"><i class="icon-reorder"></i></div>
+		<div id="menuToggle"><i class="fa fa-align-justify"></i></div>
 	</nav>
 
 
@@ -85,19 +97,43 @@
 	<div id="portfoliowrap">
 		<div class="container">
 			<div class="row">
-				<h3>Спеціалізація</h3>
+				<h3>Про нас </h3>
 				<br>
 				<br>
-				<div class="col-lg-4 port-space">
-					<a href="index3.html"><img src="assets/img/what-we-do1.png"></a>
-                    <p>НА ЧОМУ СПЕЦІАЛІЗУЄМОСЬ?</p>
+	           <div class="col-lg-4 port-space">
+					<img src="assets/img/what-we-do1.png">
+                    <button class="btn btn-dafault" data-toggle="collapse" data-target="#show-me">
+                        НА ЧОМУ СПЕЦІАЛІЗУЄМОСЬ?
+                        <span class="fa fa-angle-down"></span>
+                    </button>
+                        <div id="show-me" class="collapse ">
+                        <p>АВТО ЗАПЧАСТИНИ ЯПОНІЯ КОРЕЯ</p>
+                            <p class="col-lg-7 port-space">HYNDAI</p>
+                            <p class="col-lg-4 port-space">ISUZU</p>
+                            <p class="col-lg-4 port-space">SUBARU</p>
+                            <p class="col-lg-4 port-space">SUZUKI</p>
+                            <p class="col-lg-4 port-space">NISSAN</p>
+                            <p class="col-lg-4 port-space">LEXUS</p>
+                            <p class="col-lg-4 port-space">MITSUBISHI</p>
+                            <p class="col-lg-4 port-space">TOYOTA</p>
+                            <p class="col-lg-4 port-space">HONDA</p>
+                            <p class="col-lg-4 port-space">MAZDA</p>
+                            <p class="col-lg-4 port-space">KIA</p>
+                        </div>
 				</div>
                 <div class="col-lg-4 port-space">
                     <p>В НАШ ЧАС АВТОРАНСПОРТ НЕ Ж ЛИШЕ ЗАСОБОМ ПЕРЕСУВАННЯ - ЦЕ РОЗКІШ І ПРЕДСТАВНИЦЬКИЙ СТАТУС, АЛЕ НЕ ПОТРІБНО ЗАБУВАТИ, ЩО ЦЕ ТАКОЖ ВЕЛИКА ВІДПОВІДАЛЬНІСТЬ. І ЗАРАЗ МИ ГОВОРИМО НЕ ТІЛЬКИ ПРО ПРАВИЛА ДОРОЖНЬОГО РУХУ ТА ЇХ ДОТРИМАННЯ, А Й ПРО ТАКУ ВАЖЛИВУ СКЛАДОВУ , ЯК РЕМОНТ АВТО.</p>
-				</div>	
+				</div>	                
 				<div class="col-lg-4 port-space">
-					<a href="index2.html"><img src="assets/img/what-we-do2.png"></a>
-                    <p>ДЕ МИ ЗНАХОДИМОСЬ?</p>
+					<img src="assets/img/what-we-do1.png">
+                    <button class="btn btn-dafault" data-toggle="collapse" data-target="#hide-me">
+                        ДЕ МИ ЗНАХОДИМОСЬ?
+                        <span class="fa fa-angle-down"></span>    
+                    </button>
+                        <div id="hide-me" class="collapse ">
+                            <b>м.Львів Вулиця ************</b>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82352.671015165!2d23.94219555815365!3d49.8326679491113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1490027848315" width="100%" height="450" allowfullscreen></iframe>
+                        </div>
 				</div>
 							
 			</div>	
@@ -121,18 +157,78 @@
 	<div id="g">
 		<div class="container">
 			<div class="row">
-				<h3>Про нас</h3>
+				<h3>Пошук запчастини</h3>
 				<br>
 				<br>
-				<div class="col-lg-2"></div>
-				<div class="col-lg-8">
-				<p>Автомобі́ль(від грец. αὐτός — сам і лат. mobilis — той, що рухається) — самохідна колісна машина, яка приводиться в рух встановленим на ній двигуном і призначена для перевезення людей, вантажу, буксирування транспортних засобів, виконання спеціальних робіт та перевезення спеціального устаткування безрейковими дорогами.</p>
-				<br>
-				<br>
-				</div>
+				    <div class="col-lg-2">
+                                <select class="btn btn-primary dropup">
+                                    <option>Виберіть Бренд:</option>
+                                    <option>HYNDAI</option>
+                                    <option>KIA</option>
+                                    <option>MAZDA</option>
+                                    <option>NISSAN</option>
+                                    <option>Пункт 5</option>
+                                </select>
+                    </div>
+                <div class="col-lg-2">
+                                <select class="btn btn-primary">
+                                    <option>Виберіть Модель</option>
+                                    <option>Пункт 1</option>
+                                    <option>Пункт 2</option>
+                                    <option>Пункт 3</option>
+                                    <option>Пункт 4</option>
+                                    <option>Пункт 5</option>
+                                </select>
+                    </div>
+                <div class="col-lg-2">
+                                <select class="btn btn-primary">
+                                    <option>Виберіть Марку</option>
+                                    <option>Пункт 1</option>
+                                    <option>Пункт 2</option>
+                                    <option>Пункт 3</option>
+                                    <option>Пункт 4</option>
+                                    <option>Пункт 5</option>
+                                </select>
+                    </div>
+                <div class="col-lg-2">
+                                <select class="btn btn-primary">
+                                    <option>Виберіть Марку</option>
+                                    <option>Пункт 1</option>
+                                    <option>Пункт 2</option>
+                                    <option>Пункт 3</option>
+                                    <option>Пункт 4</option>
+                                    <option>Пункт 5</option>
+                                </select>
+                    </div>
+                <div class="col-lg-2">
+                                <select class="btn btn-primary">
+                                    <option>Виберіть Марку</option>
+                                    <option>Пункт 1</option>
+                                    <option>Пункт 2</option>
+                                    <option>Пункт 3</option>
+                                    <option>Пункт 4</option>
+                                    <option>Пункт 5</option>
+                                </select>
+                    </div>
+                <div class="col-lg-2">
+                                <select class="btn btn-primary">
+                                    <option>Виберіть Марку</option>
+                                    <option>Пункт 1</option>
+                                    <option>Пункт 2</option>
+                                    <option>Пункт 3</option>
+                                    <option>Пункт 4</option>
+                                    <option>Пункт 5</option>
+                                </select>
+                    </div>
 			</div>
 		</div><!-- /container -->
 	</div><!-- /g -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 	
 	<!-- ========== FOOTER SECTION ========== -->
 	<section id="contact" name="contact"></section>
@@ -173,8 +269,7 @@
 		    
 		</div>
 	</div>
-	
-	
+      
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
