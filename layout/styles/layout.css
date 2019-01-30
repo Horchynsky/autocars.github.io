@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Gestpio
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("fontawesome-4.5.0.min.css");
 @import url("framework.css");
 
@@ -156,6 +147,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav form select option{margin:5px; padding:0; border:none;}
 
 /* Breadcrumb */
+
 #breadcrumb{padding:80px 0 20px;}
 #breadcrumb ul{margin:0; padding:0; list-style:none; text-transform:uppercase;}
 #breadcrumb li{display:inline-block; margin:0 6px 0 0; padding:0;}

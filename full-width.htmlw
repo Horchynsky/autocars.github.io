@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Gestpio | Pages | Full Width</title>
+<title>Auto</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -38,38 +38,30 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-      <h1><a href="../index.html">Gestpio</a></h1>
+      <h1><a href="index.html">Auto</a></h1>
       <i class="fa fa-map-o"></i>
-      <p>Dapibus metus proin</p>
+      <p>Let`s go!</p>
     </div>
     <!-- ################################################################################################ -->
     <nav id="mainav" class="fl_right">
       <ul class="clear">
-        <li><a href="../index.html">Home</a></li>
-        <li class="active"><a class="drop" href="#">Pages</a>
-          <ul>
+        <li class="active"><a href="index.html">Home</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li class="active"><a href="full-width.html">Full Width</a></li>
-            <li><a href="sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="sidebar-right.html">Sidebar Right</a></li>
-            <li><a href="basic-grid.html">Basic Grid</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="#">Dropdown</a>
+            
+        <li><a class="drop" href="#">Information</a>
           <ul>
-            <li><a href="#">Level 2</a></li>
-            <li><a class="drop" href="#">Level 2 + Drop</a>
+            <li><a href="music.html">Music</a></li>
+            <li><a class="drop" href="#">Ratings</a>
               <ul>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
+                <li><a href="#">Top 13 cars 2018</a></li>
+                <li><a href="top.html">Top 10 the fastest cars 2018</a></li>
+                <li><a href="#">Top rare cars</a></li>
               </ul>
             </li>
-            <li><a href="#">Level 2</a></li>
+            <li><a href="news.html">Fresh news</a></li>
           </ul>
         </li>
-        <li><a href="#">Link Text</a></li>
-        <li><a href="#">Link Text</a></li>
+          <li><a href="full-width.html">About us</a></li>
       </ul>
     </nav>
     <!-- ################################################################################################ -->
@@ -78,7 +70,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <ul>
@@ -150,7 +142,7 @@
           <li>
             <article>
               <header>
-                <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
+                <figure class="avatar"><img src="images/demo/avatar.png" alt=""></figure>
                 <address>
                 By <a href="#">A Name</a>
                 </address>
@@ -164,7 +156,7 @@
           <li>
             <article>
               <header>
-                <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
+                <figure class="avatar"><img src="images/demo/avatar.png" alt=""></figure>
                 <address>
                 By <a href="#">A Name</a>
                 </address>
@@ -178,7 +170,7 @@
           <li>
             <article>
               <header>
-                <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
+                <figure class="avatar"><img src="images/demo/avatar.png" alt=""></figure>
                 <address>
                 By <a href="#">A Name</a>
                 </address>
@@ -283,11 +275,11 @@
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="../layout/scripts/jquery.min.js"></script>
-<script src="../layout/scripts/jquery.backtotop.js"></script>
-<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
 <!-- IE9 Placeholder Support -->
-<script src="../layout/scripts/jquery.placeholder.min.js"></script>
+<script src="layout/scripts/jquery.placeholder.min.js"></script>
 <!-- / IE9 Placeholder Support -->
 </body>
 </html>
