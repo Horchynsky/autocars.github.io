@@ -1,87 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Auto</title>
-    <link rel="shortcut icon" type="image/png" href="images/demo/fav.png"/>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<body id="top">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row0">
-  <div id="topbar" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="fl_left">
-      <ul class="nospace inline pushright">
-        <li><i class="fa fa-sign-in"></i> <a href="#">Login</a></li>
-        <li><i class="fa fa-user"></i> <a href="#">Register</a></li>
-      </ul>
-    </div>
-    <div class="fl_right">
-      <form class="clear" method="post" action="#">
-        <fieldset>
-          <legend>Search:</legend>
-          <input type="search" value="" placeholder="Search Here&hellip;">
-          <button class="fa fa-search" type="submit" title="Search"><em>Search</em></button>
-        </fieldset>
-      </form>
-    </div>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row1">
-  <header id="header" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div id="logo" class="fl_left">
-      <h1><a href="index.html">Auto</a></h1>
-      <i class="fa fa-map-o"></i>
-      <p>Let`s go!</p>
-    </div>
-    <!-- ################################################################################################ -->
-    <nav id="mainav" class="fl_right">
-      <ul class="clear">
-        <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            
-        <li><a class="drop" href="#">Information</a>
-          <ul>
-            <li><a href="music.html">Music</a></li>
-            <li><a class="drop" href="#">Ratings</a>
-              <ul>
-                <li><a href="#">Top 13 cars 2018</a></li>
-                <li><a href="top.html">Top 10 the fastest cars</a></li>
-                <li><a href="#">Top rare cars</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Fresh news</a></li>
-          </ul>
-        </li>
-          <li><a href="full-width.html">About us</a></li>
-      </ul>
-    </nav>
-    <!-- ################################################################################################ -->
-  </header>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
- <div class="wrapper bgded overlay" style="background-image:url('images/demo/news.jpg'); ">
-  <div id="breadcrumb" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <ul>
-        <li><a href="index.html">Home</a></li>
-      <li><a href="news.html">News</a></li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
+<?php require 'tpl/header.php'; ?>
+
+
+<?php require 'tpl/news-background.php';?>
+
+
 <div class="wrapper row3" class="wrapper row0 bgded" ;>
   <main class="hoc container clear"> 
     <!-- main body -->
@@ -196,26 +118,7 @@ Where Aberdeenshire, UK Price £35,580 On sale Now Engine 4 cyls, 1991cc, turboc
             </article>
           </li>
         </ul>
-        <h2>Write A Comment</h2>
-        <form action="#" method="post">
-          <div class="one_third first">
-            <label for="name">Name <span>*</span></label>
-            <input type="text" name="name" id="name" value="" size="22" required>
-          </div>
-          <div class="one_third">
-            <label for="email">Mail <span>*</span></label>
-            <input type="email" name="email" id="email" value="" size="22" required>
-          </div>
-          <div class="block clear">
-            <label for="comment">Your Comment</label>
-            <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
-          </div>
-          <div>
-            <input type="submit" name="submit" value="Submit Form">
-            &nbsp;
-            <input type="reset" name="reset" value="Reset Form">
-          </div>
-        </form>
+        <?php require 'tpl/comment.php';?>
       </div>
       <!-- ################################################################################################ -->
     </div>
@@ -225,68 +128,4 @@ Where Aberdeenshire, UK Price £35,580 On sale Now Engine 4 cyls, 1991cc, turboc
   </main>
 </div>
 <!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row4">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_third first">
-      <h6 class="title">About us!</h6>
-      <ul class="nospace linklist contact">
-        <li><i class="fa fa-map-marker"></i>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
-        </li>
-        <li><i class="fa fa-phone"></i> +00 (123) 456 7890<br>
-          +00 (123) 456 7890</li>
-        <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-      </ul>
-    </div>
-    <div class="one_third">
-      <h6 class="title">Our articles for us!</h6>
-      <ul class="nospace linklist">
-        <li><a href="news1.html">Mercedes-AMG A35 2019 UK review</a></li>
-        <li><a href="news2.html">Lotus and Williams partner to develop 'Omega' hypercar</a></li>
-        <li><a href="news3.html">The slowest-selling UK cars of 2018</a></li>
-      </ul>
-    </div>
-    <div class="one_third">
-      <h6 class="title">Subscribes for our news</h6>
-      <p class="btmspace-30">Sign up not to miss the latest news!</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2019 - All Rights Reserved </p>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-<!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
-<!-- IE9 Placeholder Support -->
-<script src="layout/scripts/jquery.placeholder.min.js"></script>
-<!-- / IE9 Placeholder Support -->
-</body>
-</html>
+<?php require 'tpl/footer.php';?>
